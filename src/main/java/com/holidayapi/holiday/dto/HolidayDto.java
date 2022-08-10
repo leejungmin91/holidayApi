@@ -7,10 +7,9 @@ import lombok.*;
  *  @description : 휴일 정보 요청 DTO
  */
 
-@Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 public class HolidayDto {
 
     // 연도

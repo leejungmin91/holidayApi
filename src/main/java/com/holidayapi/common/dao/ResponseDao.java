@@ -11,9 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ResponseDao {
 
-    // 응답코드
-    private String resultCode;
-    // 응답메세지
-    private String resultMsg;
+    private HeaderDao header;
+    private BodyDao body;
 
 }
